@@ -23,7 +23,7 @@ body{
     background-size:100% 100%;
     background-repeat:no-repeat;
     width:inherit;
-    height:inherit;   
+    height:inherit;
 }
 .gradient{
     background:linear-gradient( rgba(0,0,0,0.5) 40%,rgba(255,255,255,0.3) 100%);
@@ -37,7 +37,7 @@ header{
     top:0px;
     right:0px;
     width:100%;
-    height:130px;
+    height:100px;
     z-index:1;
 }
 nav ul{
@@ -50,8 +50,8 @@ nav ul{
     align-items:center;
 }
 li img{
-    width:150px;
-    height:100px;
+    width:100px;
+    height:50px;
 }
 .HeaderButtons{
     color:white;
@@ -65,7 +65,6 @@ li img{
 }
 .HeaderButtons li:hover {
     font-size:25px;
-    cursor:pointer;
 }
 /*title styles*/
 .CenteringWrapper{
@@ -106,7 +105,7 @@ li img{
     font-style:italic;
     font-weight:100;
     font-size:21px;
-    
+
 }
 /*section 2 styles*/
 .section2{
@@ -117,7 +116,7 @@ li img{
 .Images{
 position:relative;
 width:120px;
-height:120px;    
+height:120px;
 }
 .Img1{
 top:60px;
@@ -128,7 +127,7 @@ left:40px;
     height:80px;
     top:-30px;
     left:200px;
-    
+
 }
 .Img3{
     top:-160px;
@@ -204,7 +203,7 @@ left:40px;
     transform:rotate(-90deg);
     left:400px;
     top:-70px;
-    
+
 }
 .section3 p:nth-of-type(1){
     width:550px;
@@ -244,7 +243,7 @@ left:40px;
     width:160px;
     top:-557px;
     left:370px;
-    
+
 }
 /*Call to Action Styles*/
 
@@ -256,6 +255,7 @@ left:40px;
     left:50%;
     transform:translateX(-50%);
     text-align:center;
+    cursor:pointer;
 }
 button{
     box-sizing:content-box;
@@ -273,6 +273,7 @@ button{
     border-bottom-width:2px;
     color:white;
     letter-spacing:1.5px;
+    cursor:pointer;
 }
 h1{
     font-size:60px;
@@ -309,6 +310,7 @@ p{
     height:30px;
     margin:auto;
     margin-top:160px;
+    cursor:move;
 }
 .SocialMediaIconWrapper{
     top:40px;
@@ -335,7 +337,7 @@ p{
     position:fixed;
     background-color:black;
     opacity:0.8;
-    /*This part has been added, as the page is still under construction, and 
+    /*This part has been added, as the page is still under construction, and
     does not have the javascript command to allow it to reappear. Delete this styling
     to see Overlay.*/
     display:none;
@@ -350,7 +352,7 @@ p{
     top:10.5em;
     background-color:#e0e0e0;
     border-radius:40px;
-      /*This part has been added, as the page is still under construction, and 
+      /*This part has been added, as the page is still under construction, and
     does not have the javascript command to allow it to reappear. Delete this styling
     to see Overlay.*/
     display:none;
@@ -425,7 +427,7 @@ label{
     color:#666;
 }
 .VenueContainer:hover .InputBorder{
-   border: 5px solid #666; 
+   border: 5px solid #666;
 }
 .VenueContainer:hover label{
     color:#666;
@@ -445,7 +447,7 @@ input`  1 :checked label{
     .Images{
         width:100px;
     }
-    
+
 /*    Section 2 Media Query Styles*/
     .section2 h1{
         width:40px;
@@ -458,7 +460,7 @@ input`  1 :checked label{
         width:570px;
         height:240px;
         margin:auto;
-        
+
     }
     .Img2{
         width:190px;
@@ -470,8 +472,8 @@ input`  1 :checked label{
         transform:translateX(-50%);
         top:-13px;
         text-align:center;
-        
-        
+
+
     }
     .ArtistGroupImg2Container{
         width:450px;
@@ -519,8 +521,8 @@ input`  1 :checked label{
     left:50%;
     transform:translateX(-50%);
     }
-    
-    
+
+
 /*    Section 3 Media Query Styles*/
     .section3{
         overflow:visible;
@@ -550,7 +552,7 @@ input`  1 :checked label{
         width:900px;
         left:50%;
         top:0px;
-        
+
     }
     .VenueGroupImg2Container{
         width:400px;
@@ -570,7 +572,7 @@ input`  1 :checked label{
         left:220px;
         top:-260px;
     }
-    
+
     .section3 p:nth-of-type(2){
         top:-40px;
         width:900px;
@@ -610,12 +612,13 @@ input`  1 :checked label{
         left:50%;
     }
     .section4{
-        
+
     }
     button{
         position:relative;
         margin-top:60px;
+        cursor:pointer;
     }
-    
 
-}                      
+
+}
